@@ -10,10 +10,12 @@
 
 int main(void)
 {
-	char alpha;
+	char love;
 
-	for (alpha = 'a'; alpha <= 'z'; alpha++)
-		putchar(alpha);
+	for (love = 'a'; love <= 'z'; love++)
+		putchar(love);
+	for (love = 'A'; love <= 'Z'; love++)
+		putchar(love);
 	putchar('\n');
 	return (0);
 }

@@ -3,7 +3,7 @@
 /**
  * main - prints alphabet
  *
- * return - always 0 (success)
+ * Return: Always 0 (success)
  */
 
 int main(void)
@@ -11,6 +11,6 @@ int main(void)
 	char alpha;
 
 	for (alpha = 'a'; alpha <= 'z'; alpha++)
-		_putchar(alpha)
+		_putchar(alpha);
 	_putchar("\n");
 }

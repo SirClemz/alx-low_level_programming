@@ -8,9 +8,13 @@
 
 int main(void)
 {
-	char alpha;
+	char c = 'a';
 
-	for (alpha = 'a'; alpha <= 'z'; alpha++)
-		_putchar(alpha);
-	_putchar("\n");
+	while (c <= 'z')
+	{
+		_putchar(c);
+		c++;
+	}
+
+	_putchar('\n');
 }
